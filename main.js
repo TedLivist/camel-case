@@ -1,5 +1,5 @@
 function camelCase(str) {
-  strArray = str.split('')
+  let strArray = str.split('')
   wordCounter = 0
   for (let i in strArray) {
     if (strArray[i] == strArray[i].toUpperCase()) {
