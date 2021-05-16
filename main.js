@@ -6,7 +6,7 @@ function camelCase(str) {
       wordCounter += 1
     }
   }
-  console.log(wordCounter)
+  return wordCounter + 1
 }
 
-camelCase("saveChangesInTheEditor")
+console.log(camelCase("saveChangesInTheEditor"))
