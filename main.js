@@ -9,4 +9,4 @@ function camelCase(str) {
   console.log(wordCounter)
 }
 
-camelCase("someString")
+camelCase("saveChangesInTheEditor")
